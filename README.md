@@ -1,8 +1,3 @@
-Yes — for your **actual Airline Fare Prediction project**, the README should cover what you have genuinely done so far: **data loading → data cleaning → EDA → feature engineering → encoding → outlier analysis → model building → evaluation → hyperparameter tuning**.
-
-Since you want to put this directly into GitHub, here is a professional Markdown version. I’ve kept it concise enough for a README, while still showing the complete workflow.
-
-````markdown
 # ✈️ Airline Fare Prediction
 
 ## 📌 Project Overview
@@ -32,7 +27,7 @@ This project follows an end-to-end Data Science and Machine Learning workflow, s
 
 # 🔄 Project Workflow
 
-```text
+
 Data Collection
       ↓
 Data Loading & Understanding
@@ -56,7 +51,7 @@ Model Evaluation
 Hyperparameter Tuning
       ↓
 Final Model Evaluation
-````
+
 
 ---
 
@@ -205,17 +200,17 @@ The **Interquartile Range (IQR)** method was used for detecting potential outlie
 
 ### IQR Formula
 
-```text
+
 IQR = Q3 - Q1
-```
+
 
 Potential outlier boundaries:
 
-```text
+
 Lower Bound = Q1 - 1.5 × IQR
 
 Upper Bound = Q3 + 1.5 × IQR
-```
+
 
 Outliers were not automatically treated as incorrect data. They were analysed in the context of airline pricing because unusually high fares may represent genuine situations such as premium tickets or different travel conditions.
 
@@ -284,7 +279,7 @@ The search was performed using **3-fold cross-validation** on the training data.
 
 ### Configuration
 
-```text
+
 Estimator
     ↓
 Random Forest Regression
@@ -308,7 +303,7 @@ Output
     ↓
 Best Parameters
 Best CV Score
-```
+
 
 The best-performing hyperparameter configuration was identified based on the selected cross-validation scoring metric.
 
@@ -386,20 +381,19 @@ The project helped me understand how a Machine Learning problem moves from **raw
 
 The project is being developed step-by-step, from data preprocessing and exploratory analysis to machine learning model optimization and final evaluation.
 
-````
 
 ### One important thing
 
 For your **final README**, we should later replace the general statements with your **actual project results**, for example:
 
-```text
+
 Model              R²       MAE       RMSE
 ------------------------------------------------
 Linear Regression   ...
 Decision Tree       ...
 Random Forest       ...
 Tuned Random Forest ...
-````
+
 
 And your actual:
 
