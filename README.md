@@ -1,6 +1,8 @@
 # ✈️ Airline Fare Prediction
 
-## 📌 Project Overview
+👋 Welcome to My README!😊
+
+## 1).Project Overview
 ![Airline Fare Prediction](Project_Overview.png)
 
 Airline ticket prices can vary significantly depending on factors such as airline, source, destination, journey date, departure time, arrival time, duration, and number of stops.
@@ -11,7 +13,7 @@ This project follows an end-to-end Data Science and Machine Learning workflow, s
 
 ---
 
-## 🎯 Project Objective
+## 2).Project Objective
 
 - Analyse factors affecting airline ticket prices
 - Clean and preprocess the dataset
@@ -26,7 +28,7 @@ This project follows an end-to-end Data Science and Machine Learning workflow, s
 
 ---
 
-# 🔄 Project Workflow
+# 3).Project Workflow
 
 
 Data Collection
@@ -56,7 +58,7 @@ Final Model Evaluation
 
 ---
 
-# 1. 📂 Data Collection & Loading
+# 4). Data Collection & Loading
 ![alt text](<Data Collection & Loading.png>)
 The airline fare dataset was loaded and inspected to understand its structure, features, data types, and target variable.
 
@@ -82,7 +84,7 @@ Since the target variable is continuous, this is treated as a **Supervised Regre
 
 ---
 
-# 2. 🧹 Data Cleaning & Preprocessing
+# 5).  Data Cleaning & Preprocessing
 ![alt text](<Data Collection & Preprocessing.png>)
 
 The dataset was inspected for:
@@ -104,7 +106,7 @@ The dataset was inspected for:
 
 ---
 
-# 3. 🔍 Exploratory Data Analysis
+# 6). Exploratory Data Analysis
 
 Exploratory Data Analysis was performed to understand patterns and relationships within the dataset.
 
@@ -124,7 +126,7 @@ Visualizations were used to better understand the distribution and relationships
 
 ---
 
-# 4. ⚙️ Feature Engineering
+# 7).  Feature Engineering
 
 Feature engineering was performed to transform the existing features into more useful representations for Machine Learning.
 
@@ -182,7 +184,7 @@ These transformations make the information easier for Machine Learning algorithm
 
 ---
 
-# 5. 🔢 Feature Encoding
+# 8).  Feature Encoding
 
 Machine Learning algorithms require numerical input, so categorical variables were converted into numerical representations.
 
@@ -207,7 +209,7 @@ The encoding approach was selected based on the nature of each feature.
 
 ---
 
-# 6. 📊 Outlier Analysis
+# 9).  Outlier Analysis
 ![alt text](<Outlier Analysis.png>)
 
 Outliers were analysed to identify observations that were significantly different from the general distribution of the data.
@@ -233,7 +235,7 @@ Outliers were not automatically treated as incorrect data. They were analysed in
 
 ---
 
-# 7. 🤖 Machine Learning Models
+# 10).  Machine Learning Models
 
 Since the target variable `Price` is continuous, regression algorithms were used.
 
@@ -257,7 +259,7 @@ Multiple algorithms were compared rather than assuming that a single algorithm w
 
 ---
 
-# 8. 📈 Model Evaluation
+# 11).  Model Evaluation
 
 The models were evaluated using multiple regression metrics.
 
@@ -275,7 +277,7 @@ Error distributions were also analysed to understand how the model's prediction 
 
 ---
 
-# 9. 🎯 Hyperparameter Tuning
+# 12).  Hyperparameter Tuning
 
 After comparing the initial models, hyperparameter optimization was performed on the selected tree-based model.
 
@@ -328,7 +330,7 @@ The best-performing hyperparameter configuration was identified based on the sel
 
 ---
 
-# 10. 🧪 Final Model Evaluation
+# 10.  Final Model Evaluation
 
 After hyperparameter optimization, the optimized model was evaluated using the separate test dataset.
 
@@ -345,7 +347,7 @@ Final evaluation included:
 
 ---
 
-# 🧠 Key Learnings
+#  Key Learnings
 
 Through this project, I gained practical experience in:
 
@@ -366,7 +368,7 @@ The project helped me understand how a Machine Learning problem moves from **raw
 
 ---
 
-# 🚀 Future Improvements
+#  Future Improvements
 
 * Build a complete automated ML pipeline
 * Perform more extensive hyperparameter optimization
@@ -379,7 +381,7 @@ The project helped me understand how a Machine Learning problem moves from **raw
 
 ---
 
-# 🛠️ Technologies Used
+#  Technologies Used
 
 * Python
 * Pandas
@@ -394,7 +396,7 @@ The project helped me understand how a Machine Learning problem moves from **raw
 
 ---
 
-# 📌 Project Status
+#  Project Status
 
 **Currently in development**
 
@@ -423,3 +425,14 @@ And your actual:
 * RMSE
 * MAPE
 t.
+
+## About the Author
+
+**Divya Upadhyay😊**
+
+***Thank you for taking the time to explore my project and read my README.***
+
+**Connect with me:**
+
+* LinkedIn: [Divya Upadhyay](https://www.linkedin.com/in/divya-upadhyay-a77060348/)
+* GitHub: [CyberWol-12](https://github.com/CyberWol-12)
