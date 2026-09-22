@@ -1,6 +1,7 @@
 # ✈️ Airline Fare Prediction
 
 ## 📌 Project Overview
+![Airline Fare Prediction](Project_Overview.png)
 
 Airline ticket prices can vary significantly depending on factors such as airline, source, destination, journey date, departure time, arrival time, duration, and number of stops.
 
@@ -56,7 +57,7 @@ Final Model Evaluation
 ---
 
 # 1. 📂 Data Collection & Loading
-
+![alt text](<Data Collection & Loading.png>)
 The airline fare dataset was loaded and inspected to understand its structure, features, data types, and target variable.
 
 ### Dataset Features
@@ -82,6 +83,7 @@ Since the target variable is continuous, this is treated as a **Supervised Regre
 ---
 
 # 2. 🧹 Data Cleaning & Preprocessing
+![alt text](<Data Collection & Preprocessing.png>)
 
 The dataset was inspected for:
 
@@ -129,6 +131,7 @@ Feature engineering was performed to transform the existing features into more u
 ### Features created included:
 
 #### Journey Date
+![alt text](<Journey Date.png>)
 
 The journey date was transformed into separate components such as:
 
@@ -137,7 +140,7 @@ The journey date was transformed into separate components such as:
 * Journey Year
 
 #### Departure Time
-
+![alt text](<Departure Time.png>)
 Departure time was decomposed into:
 
 * Departure Hour
@@ -153,19 +156,22 @@ A categorical departure-time feature was also created to classify flights into g
 * Late Night
 
 #### Arrival Time
+![alt text](<Arrival Time.png>)
 
 Arrival time was decomposed into:
 
 * Arrival Hour
 * Arrival Minute
 
-#### Flight Duration
+#### Dep_Time_hrs
 
-Flight duration was transformed into numerical representations such as:
+* Dep_Time_hrs is composed into:
+* Early Morning
+* Morning
+* AfterNoon
+* Night
+* Late Night
 
-* Duration Hours
-* Duration Minutes
-* Total Duration in Minutes
 
 These transformations make the information easier for Machine Learning algorithms to process.
 
