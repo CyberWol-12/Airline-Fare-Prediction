@@ -164,13 +164,18 @@ Arrival time was decomposed into:
 * Arrival Minute
 
 #### Dep_Time_hrs
-
+![alt text](<Dep_Time_hrs.png>)
+**Departure Time**
+![alt text](<image.png>)
 * Dep_Time_hrs is composed into:
 * Early Morning
 * Morning
 * AfterNoon
 * Night
 * Late Night
+
+## Lets Analyse whether total  stops affect price or not!
+![alt text](<inage2.png>)
 
 
 These transformations make the information easier for Machine Learning algorithms to process.
@@ -190,17 +195,23 @@ Machine Learning algorithms require numerical input, so categorical variables we
 Examples of categorical features processed include:
 
 * Airline
+![alt text](<airlines.png>)
 * Source
+![alt text](<Source.png>)
 * Destination
+![alt text](<Destination.png>)
 * Total Stops
+![alt text](<Total Stops.png>)
 
 The encoding approach was selected based on the nature of each feature.
 
 ---
 
 # 6. 📊 Outlier Analysis
+![alt text](<Outlier Analysis.png>)
 
 Outliers were analysed to identify observations that were significantly different from the general distribution of the data.
+![alt text](<Deal_Outlier Analysis.png>)
 
 The **Interquartile Range (IQR)** method was used for detecting potential outliers.
 
@@ -233,10 +244,12 @@ The following models were explored:
 Used as a baseline regression model to understand the relationship between the input features and ticket price.
 
 ### Decision Tree Regression
+![alt text](<Decision Tree Regression.png>)
 
 Used to capture non-linear relationships and interactions between features.
 
 ### Random Forest Regression
+![alt text](<Random Forest Regression.png>)
 
 Used as an ensemble tree-based model capable of capturing more complex relationships by combining multiple decision trees.
 
