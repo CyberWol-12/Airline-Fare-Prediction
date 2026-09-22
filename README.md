@@ -165,7 +165,7 @@ Arrival time was decomposed into:
 
 #### Dep_Time_hrs
 ![alt text](<Dep_Time_hrs.png>)
-**Departure Time**
+# **Departure Time**
 ![alt text](<image.png>)
 * Dep_Time_hrs is composed into:
 * Early Morning
